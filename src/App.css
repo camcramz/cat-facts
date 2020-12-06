@@ -1,3 +1,8 @@
+
+.container-fluid {
+  height: 80vh;
+}
+
 .App {
   text-align: center;
 }
@@ -14,7 +19,11 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  color: #e59c26;
+}
+
+.App-body {
+  background-color: #161828;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -26,6 +35,37 @@
 
 .App-link {
   color: #61dafb;
+}
+
+.cat-card-body {
+  background-color: #21263c;
+  width: 90%;
+}
+
+.cat-fact-row {
+  margin: 0px;
+}
+
+.cat-fact-scroll {
+  max-height: 55vh;
+  overflow-y: scroll;
+}
+
+.cat-card-text {
+  text-align: left;
+}
+
+.btn-cat {
+  color: #ec7577;
+  border: solid 1px #ec7577;
+}
+
+.btn-cat.active,
+.btn-cat:hover:not(.disabled):not([disabled]),
+.btn-cat:active:not(.disabled):not([disabled]) {
+    background-color: #ec7577;
+    border: solid 1px #ec7577;
+    color: white;
 }
 
 @keyframes App-logo-spin {
